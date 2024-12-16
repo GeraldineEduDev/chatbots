@@ -24,3 +24,7 @@ Route::get('/', function () {
 Route::get('/botman', function () {
     return view('botman');
 });
+
+Route::get('/tidio', function () {
+    return view('tidio');
+});
